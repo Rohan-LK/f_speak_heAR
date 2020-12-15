@@ -1,19 +1,17 @@
+# py_module
 import pyttsx3
 import speech_recognition as sr
-
 # MACHINE_VOICE
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 rate = engine.getProperty('rate')
 engine.setProperty('voice', voices[1].id)
 engine.setProperty('rate', 150)
-
 # SPEAK DEFINITIONS
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
     print("CompteR: ", audio)
-
 # TAKE COMMAND DEFINITION
 def takecommand():
     r = sr.Recognizer()
@@ -31,5 +29,4 @@ def takecommand():
         print("Sorry, Please say that again...")
         return "None"
     return query
-
 # ROHAN LAL KSHETRY
