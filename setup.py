@@ -8,7 +8,7 @@ setuptools.setup(
     version="0.0.1",
     author="Rohan Lal Kshetry",
     author_email="rlkshetry95@gmail.com",
-    description="speak and take command functions",
+    description="speak female voice and take command functions",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Rohan-LK/py_speak_heaR.git",
