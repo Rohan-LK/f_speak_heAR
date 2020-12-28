@@ -11,9 +11,9 @@ setuptools.setup(
     description="speak female voice and take command functions",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Rohan-LK/py_speak_heaR.git",
+    url="https://github.com/Rohan-LK/f_speak_heAR.git",
     packages=setuptools.find_packages(),
-    py_modules = ['speak_heAR'],
+    py_modules = ['f_speak_heAR'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
